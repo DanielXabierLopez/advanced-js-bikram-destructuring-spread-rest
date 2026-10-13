@@ -13,7 +13,7 @@ console.log(ana);
 
 //2.- Dado el objeto empleados, extrae el email del empleado Luis --> Luis@gmail.com
 
-const [{ emailLuis }] = empleados;
+const [{ email: emailLuis }] = empleados;
 
 console.log(emailLuis); // Luis@gmail.com
 
